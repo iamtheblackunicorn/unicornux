@@ -1,5 +1,14 @@
+/*
+Unicorn UX by Alexander Abraham, "The Black Unicorn".
+Licensed under the MIT license.
+*/
+
 import 'package:flutter/material.dart';
 
+/// This stateless widget contains
+/// the custom button with custom padding,
+/// custom rounding, custom [onPress] actions
+/// and much more.
 class UnicornButton extends StatelessWidget{
   final String labelText;
   final String defaultFont;
@@ -32,13 +41,18 @@ class UnicornButton extends StatelessWidget{
             standardRounding
           )
         ),
-        child: new Text(
-          labelText,
-          style: new TextStyle(
-            color: foreGroundColor,
-            fontSize: standardFontSize,
-            fontFamily: defaultFont
-          )
+        child: new Padding(
+          padding: EdgeInsets.all(
+            standardPadding
+          ),
+          child: new Text(
+            labelText,
+            style: new TextStyle(
+              color: foreGroundColor,
+              fontSize: standardFontSize,
+              fontFamily: defaultFont
+            )
+          ),
         ),
         onPressed: onPressed
       )

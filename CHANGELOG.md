@@ -1,3 +1,7 @@
-## 0.0.1
+# CHANGELOG
 
-* TODO: Describe initial release.
+## Version 1.0.0: Initial release
+
+- upload to GitHub
+- upload to Pub.dev
+- checked againsta ll conventions

@@ -1,14 +1,27 @@
-# unicornux
+# UNICORN UX
 
-A new Flutter package project.
+*UI components for designers committed to elegance* :unicorn:
 
-## Getting Started
+## About :books:
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+Because I found myself re-using and re-writing many components that I needed for writing new apps and maintaining old ones that were all carefully crafted for their respective purposes, I decided to write a package that unifies these components and gives me and everyone else one place from which to import and customize these components. Unicorn UX or Unicorn UI(X) is this package, bringing you many expertly-crafted, bespoke components for your Flutter apps!
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+
+## Installation :inbox_tray:
+
+To add *Unicorn UX* to your app, add this line to your `pubspec.yaml`:
+
+```YAML
+unicornux:
+  git: https://github.com/iamtheblackunicorn/unicornux
+```
+
+## Usage :hammer:
+
+### Importing
+
+To import all components into your app, add this line to the top of your app's main Dart source file:
+
+```dart
+import 'package:unicornux/unicornux.dart';
+```
