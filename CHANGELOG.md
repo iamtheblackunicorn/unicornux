@@ -4,4 +4,3 @@
 
 - upload to GitHub
 - upload to Pub.dev
-- checked againsta ll conventions

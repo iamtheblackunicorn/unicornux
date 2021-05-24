@@ -1,6 +1,6 @@
 name: unicornux
 description: UI components for designers committed to elegance.
-version: 0.0.1
+version: 1.0.0
 homepage: https://github.com/iamtheblackunicorn/unicornux
 environment:
   sdk: ">=2.10.0 <3.0.0"
@@ -16,7 +16,3 @@ dev_dependencies:
   loading_animations: ^2.2.0
 flutter:
   uses-material-design: true
-  fonts:
-    - family: Lobster
-      fonts:
-        - asset: assets/fonts/Lobster.ttf
