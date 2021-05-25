@@ -2,8 +2,9 @@
 
 ## Install it:
 
-```dart
-unicornux: ^1.0.0
+```YAML
+unicornux:
+  git: https://github.com/iamtheblackunicorn/unicornux.git
 ```
 
 ## Import it:
@@ -20,9 +21,8 @@ Unicorn UX by Alexander Abraham, "The Black Unicorn".
 Licensed under the MIT license.
 */
 
-import 'package:unicornux/unicornux.dart';
 import 'package:flutter/material.dart';
-
+import 'package:unicornux/unicornux.dart';
 
 void main(){
   runApp(
@@ -46,12 +46,14 @@ class TestApp extends StatelessWidget {
           child: new Column(
             children: <Widget> [
 
-              new SizedBox(
-                height: stdSpacer
-              ),
+              /// This widget is the vertical spacing
+              /// widget from [../lib/src/spacer.dart].
+              new VerticalSpacer(
+                verticalSpacing: stdSpacer
+              )
 
               /// This widget is the error widget from
-              /// ../lib/src/error.dart.
+              /// [../lib/src/error.dart].
               new UnicornTears(
                 errorMessage: 'An error\noccured!',
                 signColor: Color(0xFF000000),
@@ -60,12 +62,14 @@ class TestApp extends StatelessWidget {
                 fontFamily: 'Roboto'
               ),
 
-              new SizedBox(
-                height: stdSpacer
-              ),
+              /// This widget is the vertical spacing
+              /// widget from [../lib/src/spacer.dart].
+              new VerticalSpacer(
+                verticalSpacing: stdSpacer
+              )
 
               /// This widget is the button widget from
-              /// ../lib/src/button.dart.
+              /// [../lib/src/button.dart].
               new UnicornButton(
                 labelText: 'Hello!',
                 defaultFont: 'Roboto',
@@ -79,12 +83,14 @@ class TestApp extends StatelessWidget {
                 }
               ),
 
-              new SizedBox(
-                height: stdSpacer
-              ),
+              /// This widget is the vertical spacing
+              /// widget from [../lib/src/spacer.dart].
+              new VerticalSpacer(
+                verticalSpacing: stdSpacer
+              )
 
               /// This widget is the gradient card widget from
-              /// ../lib/src/gradientcard.dart.
+              /// [../lib/src/gradientcard.dart].
               new GradientCard(
                 boxHeight: 200,
                 boxWidth: 300,
@@ -103,12 +109,14 @@ class TestApp extends StatelessWidget {
                 )
               ),
 
-              new SizedBox(
-                height: stdSpacer
-              ),
+              /// This widget is the vertical spacing
+              /// widget from [../lib/src/spacer.dart].
+              new VerticalSpacer(
+                verticalSpacing: stdSpacer
+              )
 
               /// This widget is the card widget from
-              /// ../lib/src/card.dart.
+              /// [../lib/src/card.dart].
               new UnicornCard(
                 backGroundColor: Color(0xFF000000),
                 standardPadding: 20,
@@ -122,12 +130,14 @@ class TestApp extends StatelessWidget {
                 )
               ),
 
-              new SizedBox(
-                height: stdSpacer
-              ),
+              /// This widget is the vertical spacing
+              /// widget from [../lib/src/spacer.dart].
+              new VerticalSpacer(
+                verticalSpacing: stdSpacer
+              )
 
               /// This widget is the info widget from
-              /// ../lib/src/info.dart.
+              /// [../lib/src/info.dart].
               new InfoScreen(
                 infoData: {
                   'Name':'Example',
@@ -146,12 +156,14 @@ class TestApp extends StatelessWidget {
                 shouldWrap: true
               ),
 
-              new SizedBox(
-                height: stdSpacer
-              ),
+              /// This widget is the vertical spacing
+              /// widget from [../lib/src/spacer.dart].
+              new VerticalSpacer(
+                verticalSpacing: stdSpacer
+              )
 
               /// This widget is the loading widget from
-              /// ../lib/src/loading.dart.
+              /// [../lib/src/loading.dart].
               new UnicornTails(
                 loadingMessage: 'Your content\nis loading!',
                 signColor:Color(0xFF000000),
@@ -162,8 +174,10 @@ class TestApp extends StatelessWidget {
                 spacer: 0
               ),
 
-              new SizedBox(
-                height: stdSpacer
+              /// This widget is the vertical spacing
+              /// widget from [../lib/src/spacer.dart].
+              new VerticalSpacer(
+                verticalSpacing: stdSpacer
               )
 
             ]
