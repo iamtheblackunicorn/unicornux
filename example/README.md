@@ -64,7 +64,7 @@ class TestApp extends StatelessWidget {
                 height: stdSpacer
               ),
 
-              /// This widget is the error widget from
+              /// This widget is the button widget from
               /// ../lib/src/button.dart.
               new UnicornButton(
                 labelText: 'Hello!',
@@ -83,7 +83,7 @@ class TestApp extends StatelessWidget {
                 height: stdSpacer
               ),
 
-              /// This widget is the error widget from
+              /// This widget is the gradient card widget from
               /// ../lib/src/gradientcard.dart.
               new GradientCard(
                 boxHeight: 200,
@@ -107,7 +107,7 @@ class TestApp extends StatelessWidget {
                 height: stdSpacer
               ),
 
-              /// This widget is the error widget from
+              /// This widget is the card widget from
               /// ../lib/src/card.dart.
               new UnicornCard(
                 backGroundColor: Color(0xFF000000),
@@ -126,7 +126,7 @@ class TestApp extends StatelessWidget {
                 height: stdSpacer
               ),
 
-              /// This widget is the error widget from
+              /// This widget is the info widget from
               /// ../lib/src/info.dart.
               new InfoScreen(
                 infoData: {
@@ -150,7 +150,7 @@ class TestApp extends StatelessWidget {
                 height: stdSpacer
               ),
 
-              /// This widget is the error widget from
+              /// This widget is the loading widget from
               /// ../lib/src/loading.dart.
               new UnicornTails(
                 loadingMessage: 'Your content\nis loading!',
